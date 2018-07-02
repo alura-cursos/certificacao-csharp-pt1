@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace certificacao_csharp_roteiro
+namespace certificacao_csharp_roteiro.antes
 {
     class PontoFlutuante : IAulaItem
     {
