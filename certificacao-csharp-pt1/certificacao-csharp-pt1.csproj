@@ -87,6 +87,10 @@
     <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\antes\PropriedadesIndexadas.cs" />
     <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\depois\IDictionary.cs" />
     <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\depois\PropriedadesIndexadas.cs" />
+    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\antes\Sobrecargas.cs" />
+    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\depois\Sobrecargas.cs" />
+    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\2 - Métodos Substituídos\antes\2 - Métodos Substituídos.cs" />
+    <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\2 - Métodos Substituídos\depois\2 - Métodos Substituídos.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
