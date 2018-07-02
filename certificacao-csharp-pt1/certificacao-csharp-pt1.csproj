@@ -91,6 +91,10 @@
     <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\1 - Métodos Sobrecarregados\depois\Sobrecargas.cs" />
     <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\2 - Métodos Substituídos\antes\2 - Métodos Substituídos.cs" />
     <Compile Include="Aula4 - criar métodos sobrecarregados e substituídos\2 - Métodos Substituídos\depois\2 - Métodos Substituídos.cs" />
+    <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\1 - Boxing\antes\Boxing.cs" />
+    <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\1 - Boxing\depois\Boxing.cs" />
+    <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\antes\Unboxing.cs" />
+    <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\depois\Unboxing.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
