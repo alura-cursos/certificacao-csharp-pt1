@@ -95,6 +95,16 @@
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\1 - Boxing\depois\Boxing.cs" />
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\antes\Unboxing.cs" />
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\depois\Unboxing.cs" />
+    <Compile Include="Aula6 - cast de tipos\1 - Conversões implícitas\antes\ConversoesImplicitas.cs" />
+    <Compile Include="Aula6 - cast de tipos\1 - Conversões implícitas\depois\ConversoesImplicitas.cs" />
+    <Compile Include="Aula6 - cast de tipos\2 - Conversões explícitas\antes\ConversoesExplicitas.cs" />
+    <Compile Include="Aula6 - cast de tipos\2 - Conversões explícitas\depois\ConversoesExplicitas.cs" />
+    <Compile Include="Aula6 - cast de tipos\3 - Operadores IS e AS\antes\3 - Operadores IS e AS.cs" />
+    <Compile Include="Aula6 - cast de tipos\3 - Operadores IS e AS\depois\3 - Operadores IS e AS.cs" />
+    <Compile Include="Aula6 - cast de tipos\4 - Conversões definidas pelo usuário\antes\OperadoresDeConversao.cs" />
+    <Compile Include="Aula6 - cast de tipos\4 - Conversões definidas pelo usuário\depois\OperadoresDeConversao.cs" />
+    <Compile Include="Aula6 - cast de tipos\5 - Conversões com classes auxiliares\antes\MetodosAuxiliares.cs" />
+    <Compile Include="Aula6 - cast de tipos\5 - Conversões com classes auxiliares\depois\MetodosAuxiliares.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
