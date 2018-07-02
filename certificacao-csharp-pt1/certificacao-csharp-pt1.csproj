@@ -75,6 +75,18 @@
     <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\6 - Dynamic\depois\Dinamicos.cs" />
     <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\antes\Strings.cs" />
     <Compile Include="Aula2 - criar tipos de referência, tipos genéricos, construtores, variáveis ​​estáticas\7 - Strings\depois\Strings.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\2 - Metodos\antes\Metodos.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\2 - Metodos\depois\Metodos.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\antes\ParametrosNomeados.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\antes\ParametrosOpcionais.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\depois\ParametrosNomeados.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\3 - Parametros Opcionais\depois\ParametrosOpcionais.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\4 - Métodos de Extensão\antes\MetodosDeExtensao.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\4 - Métodos de Extensão\depois\MetodosDeExtensao.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\antes\IDictionary.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\antes\PropriedadesIndexadas.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\depois\IDictionary.cs" />
+    <Compile Include="Aula3 - classes, métodos, métodos de extensão\5 - Propriedades Indexadas\depois\PropriedadesIndexadas.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +95,8 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Aula3 - classes, métodos, métodos de extensão\1 - Classes\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
