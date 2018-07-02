@@ -105,6 +105,16 @@
     <Compile Include="Aula6 - cast de tipos\4 - Conversões definidas pelo usuário\depois\OperadoresDeConversao.cs" />
     <Compile Include="Aula6 - cast de tipos\5 - Conversões com classes auxiliares\antes\MetodosAuxiliares.cs" />
     <Compile Include="Aula6 - cast de tipos\5 - Conversões com classes auxiliares\depois\MetodosAuxiliares.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\1 - string, var, object e dynamic\antes\UsandoDynamic.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\1 - string, var, object e dynamic\depois\UsandoDynamic.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\2 - Conversões entre dynamic e outros\antes\ConversoesDeDynamic.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\2 - Conversões entre dynamic e outros\depois\ConversoesDeDynamic.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\3 - Resolução de sobrecarga\antes\ResolucaoSobrecarga.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\3 - Resolução de sobrecarga\depois\ResolucaoSobrecarga.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\4 - Adicionando membros dinamicamente\antes\UsandoExpandObject.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\4 - Adicionando membros dinamicamente\depois\UsandoExpandObject.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\5 - Interoperabilidade COM\antes\InteropCOM.cs" />
+    <Compile Include="Aula7 - lidar com tipos dinâmicos\5 - Interoperabilidade COM\depois\InteropCOM.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
