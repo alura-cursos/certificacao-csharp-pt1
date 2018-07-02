@@ -12,16 +12,16 @@ namespace certificacao_csharp_roteiro
         {
             ///<image url="$(ProjectDir)img14.png" />
 
-            AnguloEmGraus anguloEmGraus = AnguloEmGraus.Converte(45);
+            AnguloEmGraus anguloEmGraus = 45;
             Console.WriteLine(anguloEmGraus);
 
-            AnguloEmRadianos anguloEmRadianos = AnguloEmRadianos.Converte(15);
+            AnguloEmRadianos anguloEmRadianos = 15;
             Console.WriteLine(anguloEmRadianos);
 
-            double graus = AnguloEmGraus.Converte(anguloEmGraus);
+            double graus = anguloEmGraus;
 
-            anguloEmRadianos = AnguloEmRadianos.Converte(anguloEmGraus);
-            anguloEmGraus = AnguloEmGraus.Converte(anguloEmRadianos);
+            anguloEmRadianos = (AnguloEmRadianos)anguloEmGraus;
+            anguloEmGraus = anguloEmRadianos;
             System.Console.WriteLine($"anguloEmGraus: {anguloEmGraus}");
             System.Console.WriteLine($"anguloEmRadianos: {anguloEmRadianos}");
         }
@@ -36,17 +36,17 @@ namespace certificacao_csharp_roteiro
             this.Radianos = radianos;
         }
 
-        public static AnguloEmRadianos Converte(AnguloEmGraus graus)
+        public static explicit operator AnguloEmRadianos(AnguloEmGraus graus)
         {
             return new AnguloEmRadianos(graus.Graus * System.Math.PI / 180);
         }
 
-        public static AnguloEmRadianos Converte(double radianos)
+        public static implicit operator AnguloEmRadianos(double radianos)
         {
             return new AnguloEmRadianos(radianos);
         }
 
-        public static double Converte(AnguloEmRadianos radianos)
+        public static explicit operator double(AnguloEmRadianos radianos)
         {
             return radianos.Radianos;
         }
@@ -63,17 +63,17 @@ namespace certificacao_csharp_roteiro
 
         public AnguloEmGraus(double graus) { this.Graus = graus; }
 
-        public static AnguloEmGraus Converte(AnguloEmRadianos radianos)
+        public static implicit operator AnguloEmGraus(AnguloEmRadianos radianos)
         {
             return new AnguloEmGraus(radianos.Radianos * 180 / System.Math.PI);
         }
 
-        public static AnguloEmGraus Converte(double graus)
+        public static implicit operator AnguloEmGraus(double graus)
         {
             return new AnguloEmGraus(graus);
         }
 
-        public static double Converte(AnguloEmGraus graus)
+        public static implicit operator double(AnguloEmGraus graus)
         {
             return graus.Graus;
         }
