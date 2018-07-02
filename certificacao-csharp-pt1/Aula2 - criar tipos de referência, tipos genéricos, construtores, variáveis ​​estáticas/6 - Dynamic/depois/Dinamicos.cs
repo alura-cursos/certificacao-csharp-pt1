@@ -10,7 +10,14 @@ namespace certificacao_csharp_roteiro
     {
         public void Executar()
         {
+            object objeto = 1;
+            //objeto = objeto + 3;
 
+            dynamic dinamico = 1;
+            dinamico = dinamico + 3;
+            Console.WriteLine(dinamico);
+
+            //dinamico.teste();
         }
     }
 }
