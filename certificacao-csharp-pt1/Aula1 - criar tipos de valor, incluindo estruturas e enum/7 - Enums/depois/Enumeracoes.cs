@@ -27,8 +27,15 @@ namespace certificacao_csharp_roteiro
     enum DiasDaSemana : long { Seg = 3, Ter = 10, Qua = 15, Qui, Sex, Sab, Dom }
 
     [Flags]
-    enum DiasDeTrabalho { Seg = 0, Ter = 1, Qua = 2, Qui = 4, Sex = 8, Sab = 16, Dom = 32 }
+    enum DiasDeTrabalho { Seg = 1, Ter = 2, Qua = 4, Qui = 8, Sex = 16, Sab = 32, Dom = 64 }
 
 }
 ///Seg, Ter, Qua, Qui, Sex, Sab, Dom
-///0, 1, 2, 4, 8, 16, 32
+/// 1,   2,   4,   8,   16, 32 , 64
+
+// 1 = SEG
+// 2 = TER
+// 3 (1+2) = SEG + TER
+// 4 = QUA
+// 5 (4 + 1)= QUA + SEG
+/// ...
